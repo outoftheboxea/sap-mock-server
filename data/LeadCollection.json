@@ -1,0 +1,23 @@
+{
+    "Leads": [
+      {
+        "LeadID": "L1001",
+        "LeadName": "John Doe",
+        "Company": "Acme Corp",
+        "Email": "john.doe@acme.com",
+        "Phone": "1234567890",
+        "Status": "Open",
+        "CreatedDate": "2025-02-01T10:00:00Z"
+      },
+      {
+        "LeadID": "L1002",
+        "LeadName": "Jane Smith",
+        "Company": "Beta Industries",
+        "Email": "jane.smith@beta.com",
+        "Phone": "0987654321",
+        "Status": "Qualified",
+        "CreatedDate": "2025-02-03T11:30:00Z"
+      }
+    ]
+  }
+  

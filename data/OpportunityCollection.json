@@ -1,0 +1,21 @@
+{
+    "Opportunities": [
+      {
+        "OpportunityID": "OPP1001",
+        "OpportunityName": "New Business Expansion",
+        "SalesStage": "Qualification",
+        "PotentialAmount": 100000,
+        "Currency": "USD",
+        "ClosingDate": "2025-06-30"
+      },
+      {
+        "OpportunityID": "OPP1002",
+        "OpportunityName": "Product Upgrade Proposal",
+        "SalesStage": "Proposal",
+        "PotentialAmount": 75000,
+        "Currency": "USD",
+        "ClosingDate": "2025-07-15"
+      }
+    ]
+  }
+  

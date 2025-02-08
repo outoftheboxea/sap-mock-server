@@ -1,0 +1,32 @@
+{
+    "ExpenseEntries": [
+      {
+        "EntryID": "EE1001",
+        "ExpenseType": "Travel",
+        "Date": "2025-02-01",
+        "Amount": 250.75,
+        "Currency": "USD",
+        "Description": "Flight ticket to conference",
+        "Status": "Submitted"
+      },
+      {
+        "EntryID": "EE1002",
+        "ExpenseType": "Meals",
+        "Date": "2025-02-02",
+        "Amount": 45.50,
+        "Currency": "USD",
+        "Description": "Business lunch with client",
+        "Status": "Approved"
+      },
+      {
+        "EntryID": "EE1003",
+        "ExpenseType": "Accommodation",
+        "Date": "2025-02-03",
+        "Amount": 350.00,
+        "Currency": "USD",
+        "Description": "Hotel stay for conference",
+        "Status": "Pending"
+      }
+    ]
+  }
+  

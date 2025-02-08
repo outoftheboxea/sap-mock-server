@@ -1,0 +1,44 @@
+{
+    "Suppliers": [
+      {
+        "SupplierID": "SUP1001",
+        "Name": "Global Supplies Inc.",
+        "Country": "USA",
+        "City": "New York",
+        "PostalCode": "10001",
+        "Currency": "USD",
+        "Contact": {
+          "Name": "John Doe",
+          "Phone": "+1-212-555-0100",
+          "Email": "john.doe@globalsupplies.com"
+        }
+      },
+      {
+        "SupplierID": "SUP1002",
+        "Name": "Euro Supplies GmbH",
+        "Country": "Germany",
+        "City": "Berlin",
+        "PostalCode": "10115",
+        "Currency": "EUR",
+        "Contact": {
+          "Name": "Hans Müller",
+          "Phone": "+49-30-5550101",
+          "Email": "hans.mueller@eurosupplies.de"
+        }
+      },
+      {
+        "SupplierID": "SUP1003",
+        "Name": "Asia Trading Co.",
+        "Country": "China",
+        "City": "Shanghai",
+        "PostalCode": "200000",
+        "Currency": "CNY",
+        "Contact": {
+          "Name": "Li Wei",
+          "Phone": "+86-21-5550102",
+          "Email": "li.wei@asiatrading.cn"
+        }
+      }
+    ]
+  }
+  

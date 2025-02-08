@@ -1,0 +1,32 @@
+{
+    "Suppliers": [
+      {
+        "SupplierID": "SUP2001",
+        "Name": "Alpha Supplies Inc.",
+        "Country": "USA",
+        "City": "Chicago",
+        "PostalCode": "60601",
+        "Currency": "USD",
+        "Status": "Active"
+      },
+      {
+        "SupplierID": "SUP2002",
+        "Name": "Beta Materials",
+        "Country": "Germany",
+        "City": "Munich",
+        "PostalCode": "80331",
+        "Currency": "EUR",
+        "Status": "Active"
+      },
+      {
+        "SupplierID": "SUP2003",
+        "Name": "Gamma Global",
+        "Country": "Japan",
+        "City": "Tokyo",
+        "PostalCode": "100-0001",
+        "Currency": "JPY",
+        "Status": "Inactive"
+      }
+    ]
+  }
+  

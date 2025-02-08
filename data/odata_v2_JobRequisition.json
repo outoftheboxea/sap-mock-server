@@ -1,0 +1,32 @@
+{
+    "JobRequisitions": [
+      {
+        "JobRequisitionID": "JR1001",
+        "Title": "Software Engineer",
+        "Department": "Engineering",
+        "Location": "New York, NY",
+        "PostedDate": "2025-02-01T09:00:00Z",
+        "Status": "Open",
+        "Description": "Responsible for developing and maintaining software solutions."
+      },
+      {
+        "JobRequisitionID": "JR1002",
+        "Title": "Product Manager",
+        "Department": "Product",
+        "Location": "San Francisco, CA",
+        "PostedDate": "2025-02-03T10:30:00Z",
+        "Status": "Open",
+        "Description": "Lead product strategy and development for our new platform."
+      },
+      {
+        "JobRequisitionID": "JR1003",
+        "Title": "UX Designer",
+        "Department": "Design",
+        "Location": "Remote",
+        "PostedDate": "2025-02-05T11:15:00Z",
+        "Status": "Closed",
+        "Description": "Design user-friendly interfaces and improve user experience."
+      }
+    ]
+  }
+  

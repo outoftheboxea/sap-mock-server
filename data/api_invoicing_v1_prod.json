@@ -1,0 +1,32 @@
+{
+    "Invoices": [
+      {
+        "InvoiceID": "INV1001",
+        "Customer": "Acme Corp",
+        "InvoiceDate": "2025-02-08T09:00:00Z",
+        "DueDate": "2025-03-08T09:00:00Z",
+        "Amount": 5000.50,
+        "Currency": "USD",
+        "Status": "Pending"
+      },
+      {
+        "InvoiceID": "INV1002",
+        "Customer": "Beta Industries",
+        "InvoiceDate": "2025-02-10T10:30:00Z",
+        "DueDate": "2025-03-10T10:30:00Z",
+        "Amount": 7500.75,
+        "Currency": "USD",
+        "Status": "Paid"
+      },
+      {
+        "InvoiceID": "INV1003",
+        "Customer": "Gamma Enterprises",
+        "InvoiceDate": "2025-02-12T11:45:00Z",
+        "DueDate": "2025-03-12T11:45:00Z",
+        "Amount": 6200.00,
+        "Currency": "USD",
+        "Status": "Overdue"
+      }
+    ]
+  }
+  

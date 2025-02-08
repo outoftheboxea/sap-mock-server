@@ -1,0 +1,32 @@
+{
+    "CostCenters": [
+      {
+        "CostCenterID": "CC1001",
+        "Name": "Marketing Department",
+        "Description": "Handles all marketing-related expenses",
+        "ControllingArea": "1000",
+        "Currency": "USD",
+        "ValidFrom": "2020-01-01T00:00:00Z",
+        "ValidTo": "2099-12-31T23:59:59Z"
+      },
+      {
+        "CostCenterID": "CC1002",
+        "Name": "Research and Development",
+        "Description": "Responsible for R&D related costs",
+        "ControllingArea": "1000",
+        "Currency": "USD",
+        "ValidFrom": "2020-01-01T00:00:00Z",
+        "ValidTo": "2099-12-31T23:59:59Z"
+      },
+      {
+        "CostCenterID": "CC1003",
+        "Name": "Sales Department",
+        "Description": "Manages all expenses for the sales department",
+        "ControllingArea": "1000",
+        "Currency": "USD",
+        "ValidFrom": "2020-01-01T00:00:00Z",
+        "ValidTo": "2099-12-31T23:59:59Z"
+      }
+    ]
+  }
+  

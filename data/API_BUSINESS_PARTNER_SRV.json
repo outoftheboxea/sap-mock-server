@@ -1,0 +1,26 @@
+{
+    "BusinessPartners": [
+      {
+        "BusinessPartner": "BP1001",
+        "Name": "Acme Corp",
+        "City": "New York",
+        "Country": "USA",
+        "Industry": "Manufacturing"
+      },
+      {
+        "BusinessPartner": "BP1002",
+        "Name": "Beta Industries",
+        "City": "Los Angeles",
+        "Country": "USA",
+        "Industry": "Technology"
+      },
+      {
+        "BusinessPartner": "BP1003",
+        "Name": "Gamma Enterprises",
+        "City": "Chicago",
+        "Country": "USA",
+        "Industry": "Retail"
+      }
+    ]
+  }
+  

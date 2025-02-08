@@ -1,0 +1,23 @@
+{
+    "Products": [
+      {
+        "ProductID": "P1001",
+        "Name": "SuperWidget",
+        "Category": "Widgets",
+        "Price": 99.99,
+        "Currency": "USD",
+        "Availability": true,
+        "Description": "A high-quality widget for all your widget needs."
+      },
+      {
+        "ProductID": "P1002",
+        "Name": "MegaGadget",
+        "Category": "Gadgets",
+        "Price": 149.99,
+        "Currency": "USD",
+        "Availability": false,
+        "Description": "An innovative gadget with advanced features."
+      }
+    ]
+  }
+  

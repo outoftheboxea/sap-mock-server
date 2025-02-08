@@ -1,0 +1,29 @@
+{
+    "ExpenseReports": [
+      {
+        "ReportID": "ER1001",
+        "EmployeeName": "Alice Johnson",
+        "DateSubmitted": "2025-02-01T09:00:00Z",
+        "TotalAmount": 1234.56,
+        "Currency": "USD",
+        "Status": "Approved"
+      },
+      {
+        "ReportID": "ER1002",
+        "EmployeeName": "Bob Smith",
+        "DateSubmitted": "2025-02-03T10:30:00Z",
+        "TotalAmount": 987.65,
+        "Currency": "USD",
+        "Status": "Pending"
+      },
+      {
+        "ReportID": "ER1003",
+        "EmployeeName": "Carol Lee",
+        "DateSubmitted": "2025-02-05T11:45:00Z",
+        "TotalAmount": 654.32,
+        "Currency": "USD",
+        "Status": "Rejected"
+      }
+    ]
+  }
+  

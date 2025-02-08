@@ -1,0 +1,31 @@
+{
+  "GLAccounts": [
+    {
+      "GLAccount": "4000",
+      "Description": "Sales Revenue",
+      "Currency": "USD",
+      "CompanyCode": "1000",
+      "FiscalYear": "2025",
+      "Balance": 150000.50,
+      "LastUpdated": "2025-02-08T10:00:00Z"
+    },
+    {
+      "GLAccount": "5000",
+      "Description": "Cost of Goods Sold",
+      "Currency": "USD",
+      "CompanyCode": "1000",
+      "FiscalYear": "2025",
+      "Balance": -50000.25,
+      "LastUpdated": "2025-02-08T11:00:00Z"
+    },
+    {
+      "GLAccount": "6000",
+      "Description": "Operating Expenses",
+      "Currency": "USD",
+      "CompanyCode": "1000",
+      "FiscalYear": "2025",
+      "Balance": -75000.75,
+      "LastUpdated": "2025-02-08T12:30:00Z"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+    "EmployeeTimes": [
+      {
+        "EmployeeID": "E1001",
+        "Date": "2025-02-08",
+        "StartTime": "08:00:00",
+        "EndTime": "16:00:00",
+        "HoursWorked": 8,
+        "BreakMinutes": 30
+      },
+      {
+        "EmployeeID": "E1002",
+        "Date": "2025-02-08",
+        "StartTime": "09:00:00",
+        "EndTime": "17:00:00",
+        "HoursWorked": 8,
+        "BreakMinutes": 45
+      },
+      {
+        "EmployeeID": "E1003",
+        "Date": "2025-02-08",
+        "StartTime": "07:30:00",
+        "EndTime": "15:30:00",
+        "HoursWorked": 8,
+        "BreakMinutes": 30
+      }
+    ]
+  }
+  

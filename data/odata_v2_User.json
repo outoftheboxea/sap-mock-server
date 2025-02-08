@@ -1,0 +1,29 @@
+{
+    "Users": [
+      {
+        "UserID": "U1001",
+        "FirstName": "John",
+        "LastName": "Doe",
+        "Email": "john.doe@example.com",
+        "Role": "Admin",
+        "CreatedDate": "2025-02-08T10:00:00Z"
+      },
+      {
+        "UserID": "U1002",
+        "FirstName": "Jane",
+        "LastName": "Smith",
+        "Email": "jane.smith@example.com",
+        "Role": "User",
+        "CreatedDate": "2025-02-08T11:00:00Z"
+      },
+      {
+        "UserID": "U1003",
+        "FirstName": "Alice",
+        "LastName": "Johnson",
+        "Email": "alice.johnson@example.com",
+        "Role": "User",
+        "CreatedDate": "2025-02-08T12:00:00Z"
+      }
+    ]
+  }
+  
