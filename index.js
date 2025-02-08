@@ -8,14 +8,11 @@ const app = express();
 // Middleware to parse JSON bodies
 app.use(express.json());
 
-// Define the endpoint as requested
-const baseEndpoint = '/sap/opu/odata/sap/API_SALES_ORDER_SRV/';
-
 /**
  * GET endpoint at /sap/opu/odata/sap/API_SALES_ORDER_SRV/
  * Reads data from a local JSON file and sends it in the response.
  */
-app.get(baseEndpoint, (req, res) => {
+app.get('/sap/opu/odata/sap/API_SALES_ORDER_SRV/', (req, res) => {
     const jsonFilePath = path.join(__dirname, 'data', 'API_SALES_ORDER_SRV.json');
     fs.readFile(jsonFilePath, 'utf8', (err, data) => {
     if (err) {
@@ -37,13 +34,13 @@ app.get(baseEndpoint, (req, res) => {
  * POST endpoint at /sap/opu/odata/sap/API_SALES_ORDER_SRV/
  * Receives a JSON payload, adds an additional field, and returns the modified payload.
  */
-app.post(baseEndpoint, (req, res) => {
-  const receivedData = req.body;
+app.post('/sap/opu/odata/sap/API_SALES_ORDER_SRV/', (req, res) => {
+    console.log("Request Body:", req.body); // Debug log
 
   // Add an additional field (for example, a timestamp)
   const modifiedData = {
     ...receivedData,
-    additionalField: 'This is an extra field added by the server',
+    additionalField: 'Server has recevied your message.',
     receivedAt: new Date().toISOString(),
   };
 
