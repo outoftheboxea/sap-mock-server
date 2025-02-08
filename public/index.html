@@ -5,10 +5,24 @@
   <title>Supported API Endpoints</title>
   <style>
     body { font-family: Arial, sans-serif; margin: 20px; }
-    table { border-collapse: collapse; width: 100%; }
+    table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }
     th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
     th { background-color: #f2f2f2; }
     h1 { color: #333; }
+    footer {
+      font-size: 0.9em;
+      color: #555;
+      border-top: 1px solid #ddd;
+      padding-top: 10px;
+      margin-top: 20px;
+    }
+    footer a {
+      color: #555;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
@@ -53,17 +67,17 @@
         <td>Supplier Data</td>
       </tr>
       <tr>
-        <td>SF</td>
+        <td>SAP SuccessFactors</td>
         <td>/odata/v2/User</td>
         <td>User Data</td>
       </tr>
       <tr>
-        <td>SF</td>
+        <td>SAP SuccessFactors</td>
         <td>/odata/v2/JobRequisition</td>
         <td>Job Requisitions</td>
       </tr>
       <tr>
-        <td>SF</td>
+        <td>SAP SuccessFactors</td>
         <td>/odata/v2/EmployeeTime</td>
         <td>Employee Time Data</td>
       </tr>
@@ -99,5 +113,11 @@
       </tr>
     </tbody>
   </table>
+
+  <footer>
+    <p>
+      These are test APIs provided by <a href="http://www.outoftheboxacademy.com" target="_blank">www.outoftheboxacademy.com</a>. We do not guarantee data integrity or the accuracy of the data, as this is a test server intended solely for evaluation purposes. Use these services for testing only. The authors of this service assume no responsibility for any loss or inaccuracies. For support or purchasing information, please contact <a href="mailto:testservers@outoftheboxacademy.com">testservers@outoftheboxacademy.com</a>.
+    </p>
+  </footer>
 </body>
 </html>
