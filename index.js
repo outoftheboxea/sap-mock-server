@@ -1,3 +1,14 @@
+/**
+ * OutOfTheBoxAcademy Code Attribution
+ *
+ * This code belongs to https://outoftheboxacademy.com/ and is provided free to use,
+ * provided that proper attribution is given. Please include the following citation if you use or modify this code:
+ *
+ * "Code provided by OutOfTheBoxAcademy (https://outoftheboxacademy.com/)."
+ * 
+ * License: Free to use with citation.
+ */
+
 // index.js
 const express = require('express');
 const fs = require('fs');

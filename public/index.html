@@ -5,10 +5,10 @@
   <title>Supported SAP API Endpoints</title>
   <style>
     body { font-family: Arial, sans-serif; margin: 20px; }
+    h1, h2 { color: #333; }
     table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }
     th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
     th { background-color: #f2f2f2; }
-    h1 { color: #333; }
     footer {
       font-size: 0.9em;
       color: #555;
@@ -110,6 +110,38 @@
         <td>SAP C4C</td>
         <td>/sap/c4c/odata/v1/LeadCollection</td>
         <td>Leads</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Usage Instructions</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Instruction</th>
+        <th>Details</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Supported Services</td>
+        <td>SAP Odata, SAP SuccessFactors, Ariba, Concur and SAP C4C</td>
+      </tr>
+      <tr>
+        <td>Supported Methods</td>
+        <td>Every API endpoint supports both GET and POST methods</td>
+      </tr>
+      <tr>
+        <td>GET Behavior</td>
+        <td>When you use GET, it returns sample test data for that entity</td>
+      </tr>
+      <tr>
+        <td>POST Behavior</td>
+        <td>When you use POST, it returns your request JSON along with status fields (Status, additionalField, received)</td>
+      </tr>
+      <tr>
+        <td>POST Headers</td>
+        <td>Remember to add header <code>Content-Type: application/json</code> when using POST</td>
       </tr>
     </tbody>
   </table>
