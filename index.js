@@ -285,7 +285,7 @@ app.get('/odata/v2/User', (req, res) => {
  * GET /odata/v2/JobRequisition
  * Returns test job requisition data from a local JSON file.
  */
-app.get(jobRequisitionEndpoint, (req, res) => {
+app.get('/odata/v2/JobRequisition', (req, res) => {
     const jsonFilePath = path.join(__dirname, 'data', 'odata_v2_JobRequisition.json');
     fs.readFile(jsonFilePath, 'utf8', (err, data) => {
       if (err) {
@@ -306,7 +306,7 @@ app.get(jobRequisitionEndpoint, (req, res) => {
    * POST /odata/v2/JobRequisition
    * Accepts a JSON payload, adds an additional field, and returns the modified payload.
    */
-  app.post(jobRequisitionEndpoint, (req, res) => {
+  app.post('/odata/v2/JobRequisition', (req, res) => {
     const receivedData = req.body;
     const modifiedData = {
       ...receivedData,
