@@ -2,7 +2,7 @@
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
-
+const https = require('https');
 const app = express();
 
 // Middleware to parse JSON bodies
@@ -570,8 +570,14 @@ app.get('/sap/c4c/odata/v1/LeadCollection', (req, res) => {
   });
   
   
-// Start the server
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-  console.log(`SAP OData mock server running on port ${PORT}`);
-});
+// Load SSL certificate and key (ensure these files exist in your project)
+const httpsOptions = {
+    key: fs.readFileSync(path.join(__dirname, 'key.pem')),
+    cert: fs.readFileSync(path.join(__dirname, 'cert.pem'))
+  };
+  
+  // Create and start the HTTPS server
+  https.createServer(httpsOptions, app).listen(PORT, () => {
+    console.log(`HTTPS server running on port ${PORT}`);
+  });
+  
