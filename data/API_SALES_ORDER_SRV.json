@@ -1,0 +1,104 @@
+{
+    "SalesOrders": [
+      {
+        "SalesOrder": "SO1001",
+        "OrderDate": "2025-02-08T09:30:00Z",
+        "Customer": {
+          "CustomerID": "CUST1001",
+          "Name": "Acme Corp",
+          "City": "New York",
+          "Country": "USA"
+        },
+        "SalesOrganization": "1000",
+        "DistributionChannel": "10",
+        "Division": "01",
+        "TotalAmount": 12500.75,
+        "Currency": "USD",
+        "Items": [
+          {
+            "Item": "10",
+            "Material": "MAT1001",
+            "Description": "High quality widget",
+            "Quantity": 10,
+            "Unit": "PCS",
+            "Price": 500.00
+          },
+          {
+            "Item": "20",
+            "Material": "MAT1002",
+            "Description": "Advanced gadget",
+            "Quantity": 5,
+            "Unit": "PCS",
+            "Price": 1000.15
+          }
+        ]
+      },
+      {
+        "SalesOrder": "SO1002",
+        "OrderDate": "2025-02-08T11:15:00Z",
+        "Customer": {
+          "CustomerID": "CUST1002",
+          "Name": "Beta Industries",
+          "City": "Los Angeles",
+          "Country": "USA"
+        },
+        "SalesOrganization": "1000",
+        "DistributionChannel": "20",
+        "Division": "02",
+        "TotalAmount": 7600.00,
+        "Currency": "USD",
+        "Items": [
+          {
+            "Item": "10",
+            "Material": "MAT1003",
+            "Description": "Standard part",
+            "Quantity": 15,
+            "Unit": "PCS",
+            "Price": 400.00
+          },
+          {
+            "Item": "20",
+            "Material": "MAT1004",
+            "Description": "Specialized component",
+            "Quantity": 2,
+            "Unit": "PCS",
+            "Price": 1500.00
+          }
+        ]
+      },
+      {
+        "SalesOrder": "SO1003",
+        "OrderDate": "2025-02-08T13:45:00Z",
+        "Customer": {
+          "CustomerID": "CUST1003",
+          "Name": "Gamma Enterprises",
+          "City": "Chicago",
+          "Country": "USA"
+        },
+        "SalesOrganization": "1000",
+        "DistributionChannel": "30",
+        "Division": "03",
+        "TotalAmount": 9800.50,
+        "Currency": "USD",
+        "Items": [
+          {
+            "Item": "10",
+            "Material": "MAT1005",
+            "Description": "Eco-friendly product",
+            "Quantity": 8,
+            "Unit": "PCS",
+            "Price": 800.00
+          },
+          {
+            "Item": "20",
+            "Material": "MAT1006",
+            "Description": "Innovative accessory",
+            "Quantity": 4,
+            "Unit": "PCS",
+            "Price": 600.50
+          }
+        ]
+      }
+    ]
+  }
+  
