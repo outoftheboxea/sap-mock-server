@@ -37,6 +37,8 @@ app.get('/sap/opu/odata/sap/API_SALES_ORDER_SRV/', (req, res) => {
 app.post('/sap/opu/odata/sap/API_SALES_ORDER_SRV/', (req, res) => {
     console.log("Request Body:", req.body); // Debug log
 
+    const receivedData = req.body;
+    
   // Add an additional field (for example, a timestamp)
   const modifiedData = {
     ...receivedData,
