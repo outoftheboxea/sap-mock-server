@@ -1,32 +1,112 @@
 {
-    "JobRequisitions": [
+   "JobRequisitions":[
       {
-        "JobRequisitionID": "JR1001",
-        "Title": "Software Engineer",
-        "Department": "Engineering",
-        "Location": "New York, NY",
-        "PostedDate": "2025-02-01T09:00:00Z",
-        "Status": "Open",
-        "Description": "Responsible for developing and maintaining software solutions."
+         "JobRequisitionID":"JR1001",
+         "Title":"Software Engineer",
+         "Department":"Engineering",
+         "Location":"New York, NY",
+         "PostedDate":"2025-02-01T09:00:00Z",
+         "Status":"Open",
+         "Description":"Responsible for developing and maintaining software solutions."
       },
       {
-        "JobRequisitionID": "JR1002",
-        "Title": "Product Manager",
-        "Department": "Product",
-        "Location": "San Francisco, CA",
-        "PostedDate": "2025-02-03T10:30:00Z",
-        "Status": "Open",
-        "Description": "Lead product strategy and development for our new platform."
+         "JobRequisitionID":"JR1002",
+         "Title":"Product Manager",
+         "Department":"Product",
+         "Location":"San Francisco, CA",
+         "PostedDate":"2025-02-03T10:30:00Z",
+         "Status":"Open",
+         "Description":"Lead product strategy and development for our new platform."
       },
       {
-        "JobRequisitionID": "JR1003",
-        "Title": "UX Designer",
-        "Department": "Design",
-        "Location": "Remote",
-        "PostedDate": "2025-02-05T11:15:00Z",
-        "Status": "Closed",
-        "Description": "Design user-friendly interfaces and improve user experience."
+         "JobRequisitionID":"JR1003",
+         "Title":"UX Designer",
+         "Department":"Design",
+         "Location":"Remote",
+         "PostedDate":"2025-02-05T11:15:00Z",
+         "Status":"Closed",
+         "Description":"Design user-friendly interfaces and improve user experience."
+      },
+      {
+         "JobRequisitionID":"JR1004",
+         "Title":"Data Analyst",
+         "Department":"Analytics",
+         "Location":"Chicago, IL",
+         "PostedDate":"2025-02-07T12:00:00Z",
+         "Status":"Open",
+         "Description":"Analyze data trends and provide actionable insights for business growth."
+      },
+      {
+         "JobRequisitionID":"JR1005",
+         "Title":"Marketing Specialist",
+         "Department":"Marketing",
+         "Location":"Boston, MA",
+         "PostedDate":"2025-02-08T09:45:00Z",
+         "Status":"Open",
+         "Description":"Develop and execute marketing campaigns to boost brand awareness."
+      },
+      {
+         "JobRequisitionID":"JR1006",
+         "Title":"HR Coordinator",
+         "Department":"Human Resources",
+         "Location":"Austin, TX",
+         "PostedDate":"2025-02-09T14:30:00Z",
+         "Status":"Open",
+         "Description":"Assist in recruitment, employee relations, and HR operations."
+      },
+      {
+         "JobRequisitionID":"JR1007",
+         "Title":"DevOps Engineer",
+         "Department":"IT",
+         "Location":"Seattle, WA",
+         "PostedDate":"2025-02-10T08:20:00Z",
+         "Status":"Closed",
+         "Description":"Manage and automate deployment pipelines and infrastructure."
+      },
+      {
+         "JobRequisitionID":"JR1008",
+         "Title":"Sales Executive",
+         "Department":"Sales",
+         "Location":"Los Angeles, CA",
+         "PostedDate":"2025-02-11T10:10:00Z",
+         "Status":"Open",
+         "Description":"Drive revenue growth by acquiring and managing key customer accounts."
+      },
+      {
+         "JobRequisitionID":"JR1009",
+         "Title":"Cybersecurity Analyst",
+         "Department":"IT Security",
+         "Location":"Remote",
+         "PostedDate":"2025-02-12T13:15:00Z",
+         "Status":"Open",
+         "Description":"Monitor and protect company systems from security threats and breaches."
+      },
+      {
+         "JobRequisitionID":"JR1010",
+         "Title":"Finance Manager",
+         "Department":"Finance",
+         "Location":"New York, NY",
+         "PostedDate":"2025-02-13T09:50:00Z",
+         "Status":"Closed",
+         "Description":"Oversee financial planning, budgeting, and reporting."
+      },
+      {
+         "JobRequisitionID":"JR1011",
+         "Title":"Cloud Architect",
+         "Department":"IT",
+         "Location":"San Diego, CA",
+         "PostedDate":"2025-02-14T11:30:00Z",
+         "Status":"Open",
+         "Description":"Design and implement scalable cloud solutions."
+      },
+      {
+         "JobRequisitionID":"JR1012",
+         "Title":"Customer Support Representative",
+         "Department":"Customer Service",
+         "Location":"Denver, CO",
+         "PostedDate":"2025-02-15T14:00:00Z",
+         "Status":"Open",
+         "Description":"Provide assistance to customers and resolve product inquiries."
       }
-    ]
-  }
-  
+   ]
+}
