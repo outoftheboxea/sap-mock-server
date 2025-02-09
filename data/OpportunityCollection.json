@@ -1,21 +1,100 @@
 {
-    "Opportunities": [
+   "Opportunities":[
       {
-        "OpportunityID": "OPP1001",
-        "OpportunityName": "New Business Expansion",
-        "SalesStage": "Qualification",
-        "PotentialAmount": 100000,
-        "Currency": "USD",
-        "ClosingDate": "2025-06-30"
+         "OpportunityID":"OPP1001",
+         "OpportunityName":"New Business Expansion",
+         "SalesStage":"Qualification",
+         "PotentialAmount":100000,
+         "Currency":"USD",
+         "ClosingDate":"2025-06-30"
       },
       {
-        "OpportunityID": "OPP1002",
-        "OpportunityName": "Product Upgrade Proposal",
-        "SalesStage": "Proposal",
-        "PotentialAmount": 75000,
-        "Currency": "USD",
-        "ClosingDate": "2025-07-15"
+         "OpportunityID":"OPP1002",
+         "OpportunityName":"Product Upgrade Proposal",
+         "SalesStage":"Proposal",
+         "PotentialAmount":75000,
+         "Currency":"USD",
+         "ClosingDate":"2025-07-15"
+      },
+      {
+         "OpportunityID":"OPP1003",
+         "OpportunityName":"Enterprise Cloud Migration",
+         "SalesStage":"Negotiation",
+         "PotentialAmount":150000,
+         "Currency":"USD",
+         "ClosingDate":"2025-08-20"
+      },
+      {
+         "OpportunityID":"OPP1004",
+         "OpportunityName":"SAP Implementation Project",
+         "SalesStage":"Proposal",
+         "PotentialAmount":200000,
+         "Currency":"EUR",
+         "ClosingDate":"2025-09-10"
+      },
+      {
+         "OpportunityID":"OPP1005",
+         "OpportunityName":"AI-Powered Analytics Integration",
+         "SalesStage":"Qualification",
+         "PotentialAmount":120000,
+         "Currency":"GBP",
+         "ClosingDate":"2025-10-05"
+      },
+      {
+         "OpportunityID":"OPP1006",
+         "OpportunityName":"Cybersecurity Enhancement",
+         "SalesStage":"Closed Won",
+         "PotentialAmount":95000,
+         "Currency":"USD",
+         "ClosingDate":"2025-05-15"
+      },
+      {
+         "OpportunityID":"OPP1007",
+         "OpportunityName":"CRM System Upgrade",
+         "SalesStage":"Proposal",
+         "PotentialAmount":85000,
+         "Currency":"EUR",
+         "ClosingDate":"2025-06-25"
+      },
+      {
+         "OpportunityID":"OPP1008",
+         "OpportunityName":"Digital Transformation Consulting",
+         "SalesStage":"Negotiation",
+         "PotentialAmount":180000,
+         "Currency":"USD",
+         "ClosingDate":"2025-11-12"
+      },
+      {
+         "OpportunityID":"OPP1009",
+         "OpportunityName":"HR System Integration",
+         "SalesStage":"Qualification",
+         "PotentialAmount":110000,
+         "Currency":"GBP",
+         "ClosingDate":"2025-09-30"
+      },
+      {
+         "OpportunityID":"OPP1010",
+         "OpportunityName":"IoT-Based Monitoring System",
+         "SalesStage":"Closed Lost",
+         "PotentialAmount":60000,
+         "Currency":"USD",
+         "ClosingDate":"2025-07-01"
+      },
+      {
+         "OpportunityID":"OPP1011",
+         "OpportunityName":"Supply Chain Optimization",
+         "SalesStage":"Proposal",
+         "PotentialAmount":140000,
+         "Currency":"EUR",
+         "ClosingDate":"2025-08-18"
+      },
+      {
+         "OpportunityID":"OPP1012",
+         "OpportunityName":"Blockchain for Compliance",
+         "SalesStage":"Qualification",
+         "PotentialAmount":130000,
+         "Currency":"USD",
+         "ClosingDate":"2025-10-22"
       }
-    ]
-  }
-  
+   ]
+}
