@@ -585,9 +585,9 @@ app.get('/sap/c4c/odata/v1/LeadCollection', (req, res) => {
   
 
 const httpsOptions = {
-    key: fs.readFileSync(path.join(__dirname, 'www_outoftheboxacademy_com.key')),  // Your private key
-    cert: fs.readFileSync(path.join(__dirname, 'www_outoftheboxacademy_com.crt')),  // Your main certificate
-    ca: fs.readFileSync(path.join(__dirname, 'www_outoftheboxacademy_com.ca-bundle')) // CA bundle for trust
+    key: fs.readFileSync(path.join(__dirname, 'certs/www_outoftheboxacademy_com.key')),  // Your private key
+    cert: fs.readFileSync(path.join(__dirname, 'certs/www_outoftheboxacademy_com.crt')),  // Your main certificate
+    ca: fs.readFileSync(path.join(__dirname, 'certs/www_outoftheboxacademy_com.ca-bundle')) // CA bundle for trust
 };
 
   
