@@ -583,12 +583,13 @@ app.get('/sap/c4c/odata/v1/LeadCollection', (req, res) => {
     res.json(modifiedData);
   });
   
-  
-// Load SSL certificate and key (ensure these files exist in your project)
+
 const httpsOptions = {
-    key: fs.readFileSync(path.join(__dirname, 'key.pem')),
-    cert: fs.readFileSync(path.join(__dirname, 'cert.pem'))
-  };
+    key: fs.readFileSync(path.join(__dirname, 'www_outoftheboxacademy_com.key')),  // Your private key
+    cert: fs.readFileSync(path.join(__dirname, 'www_outoftheboxacademy_com.crt')),  // Your main certificate
+    ca: fs.readFileSync(path.join(__dirname, 'www_outoftheboxacademy_com.ca-bundle')) // CA bundle for trust
+};
+
   
   // Create and start the HTTPS server
   https.createServer(httpsOptions, app).listen(PORT, () => {
