@@ -13,8 +13,8 @@
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
-const https = require('https');
 const app = express();
+const http = require('http');
 
 // Middleware to parse JSON bodies
 app.use(express.json());
@@ -583,16 +583,8 @@ app.get('/sap/c4c/odata/v1/LeadCollection', (req, res) => {
     res.json(modifiedData);
   });
   
-
-const httpsOptions = {
-    key: fs.readFileSync(path.join(__dirname, 'certs/www_outoftheboxacademy_com.key')),  // Your private key
-    cert: fs.readFileSync(path.join(__dirname, 'certs/www_outoftheboxacademy_com.crt')),  // Your main certificate
-    ca: fs.readFileSync(path.join(__dirname, 'certs/www_outoftheboxacademy_com.ca-bundle')) // CA bundle for trust
-};
-
-  
-  // Create and start the HTTPS server
-  https.createServer(httpsOptions, app).listen(PORT, () => {
-    console.log(`HTTPS server running on port ${PORT}`);
-  });
+// Create and start the HTTP server
+http.createServer(app).listen(PORT, () => {
+  console.log(`HTTP server running on port ${PORT}`);
+});
   
