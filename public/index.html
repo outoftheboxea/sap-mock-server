@@ -1,32 +1,140 @@
-<!DOCTYPE html>
+<h3>Welcome to the real-time HTML editor!</h3>
+<p>Type HTML in the textarea above, and it will magically appear in the frame below.</p><!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
   <title>Supported SAP API Endpoints</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 20px; }
-    h1, h2 { color: #333; }
-    table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }
-    th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
-    th { background-color: #f2f2f2; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 20px;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    h1, h2 {
+      color: #2c3e50;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 2.5em;
+      text-align: center;
+      background: linear-gradient(90deg, #3498db, #8e44ad);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    h2 {
+      font-size: 1.8em;
+      border-bottom: 2px solid #3498db;
+      padding-bottom: 5px;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      background-color: #fff;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
+    }
+    th {
+      background-color: #3498db;
+      color: #fff;
+      font-weight: bold;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    tr:hover {
+      background-color: #e0f7fa;
+      transition: background-color 0.3s ease;
+    }
+    a {
+      color: #3498db;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      color: #8e44ad;
+      text-decoration: underline;
+    }
     footer {
       font-size: 0.9em;
       color: #555;
       border-top: 1px solid #ddd;
       padding-top: 10px;
       margin-top: 20px;
+      text-align: center;
     }
     footer a {
-      color: #555;
+      color: #3498db;
       text-decoration: none;
     }
     footer a:hover {
+      color: #8e44ad;
       text-decoration: underline;
+    }
+    .cta-button {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 10px 0;
+      background-color: #3498db;
+      color: #fff;
+      border-radius: 5px;
+      text-align: center;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+    .cta-button:hover {
+      background-color: #8e44ad;
+    }
+    .video-link, .course-link, .whatsapp-link, .discord-link {
+      margin: 15px 0;
+    }
+    .video-link a, .course-link a, .whatsapp-link a, .discord-link a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #2ecc71;
+      color: #fff;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+    .video-link a:hover, .course-link a:hover, .whatsapp-link a:hover, .discord-link a:hover {
+      background-color: #27ae60;
+    }
+    code {
+      background-color: #e0f7fa;
+      padding: 2px 5px;
+      border-radius: 3px;
+      font-family: 'Courier New', Courier, monospace;
     }
   </style>
 </head>
 <body>
-  <h1>Supported API Endpoints</h1>
+  <h1>Test SAP Mock Server for SAP CPI Integration Learning</h1>
+
+ <!-- Service Description Section -->
+  <section class="service-description">
+    <h2>About Our SAP API Testing Service</h2>
+    <p>
+      Welcome to our <strong>SAP API Testing Service</strong>, designed to help developers, testers, and businesses evaluate and integrate SAP APIs seamlessly. Our platform provides a comprehensive suite of mock APIs for various SAP modules, including SAP OData, SAP SuccessFactors, Ariba, Concur, and SAP C4C. Whether you're building, testing, or learning, our service ensures a smooth and efficient experience.
+    </p>
+    <h3>Key Features:</h3>
+    <ul>
+      <li><strong>Mock APIs for SAP Modules:</strong> Access mock endpoints for Sales Orders, Business Partners, Products, Cost Centers, and more.</li>
+      <li><strong>Support for GET and POST Methods:</strong> Test your API calls with both GET and POST methods, and receive sample data or request responses.</li>
+      <li><strong>Realistic Test Data:</strong> Our mock APIs return realistic sample data to simulate real-world scenarios.</li>
+      <li><strong>Easy Integration:</strong> Use our APIs in your development or testing environment with minimal setup.</li>
+      <li><strong>Free Learning Resources:</strong> Explore our free tutorials and videos to master SAP CPI and API integration.</li>
+    </ul>
+    <p>
+      This service is brought to you by <a href="http://www.outoftheboxacademy.com" target="_blank">Out of the Box Academy</a>, a trusted name in SAP training and development. Whether you're a beginner or an expert, our tools and resources are designed to help you succeed.
+    </p>
+  </section>
   <table>
     <thead>
       <tr>
@@ -114,6 +222,48 @@
     </tbody>
   </table>
 
+
+<div class="video-link">
+  <h2>How to use this Test Server (SAP Mock API)</h2>
+  <iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/VjHJDEgXVn8"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+  </iframe>
+</div>
+
+<div class="course-link">
+  <h2>Learn SAP CPI for Free, here is the playlist</h2>
+  <iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/videoseries?list=PLcFnxKjhr7FoTE4ITodFVDTa1-5Eh3zEX"
+    title="YouTube playlist player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+  </iframe>
+</div>
+
+  <div class="course-link">
+    <h2>Learn SAP CPI by an Instructor-Led Online Training</h2>
+    <p><a href="https://outoftheboxacademy.com/sapcpi.php" target="_blank">Join the Course</a></p>
+  </div>
+
+  <div class="whatsapp-link">
+    <h2>Message Us on WhatsApp for Next Batch and More Info</h2>
+    <p><a href="https://wa.me/41782194022?text=I%20am%20interested%20in%20SAPCPI%20Online%20Course.%20Please%20provide%20more%20information." target="_blank">Chat on WhatsApp</a></p>
+  </div>
+
+  <div class="discord-link">
+    <h2>Join SAP CPI Warriors Discord Group for Collaboration</h2>
+    <p><a href="https://discord.com/invite/QVeCwKEd6B" target="_blank">Join Now</a></p>
+  </div>
+
   <h2>Usage Instructions</h2>
   <table>
     <thead>
@@ -125,7 +275,7 @@
     <tbody>
       <tr>
         <td>Supported Services</td>
-        <td>SAP Odata, SAP SuccessFactors, Ariba, Concur and SAP C4C</td>
+        <td>SAP Odata, SAP SuccessFactors, Ariba, Concur, and SAP C4C</td>
       </tr>
       <tr>
         <td>Supported Methods</td>
@@ -148,7 +298,7 @@
 
   <footer>
     <p>
-      These are test APIs provided by <a href="http://www.outoftheboxacademy.com" target="_blank">www.outoftheboxacademy.com</a>. We do not guarantee data integrity or the accuracy of the data, as this is a test server intended solely for evaluation purposes. Use these services for testing only. The authors of this service assume no responsibility for any loss or inaccuracies. For support or purchasing information, please contact <a href="mailto:testservers@outoftheboxacademy.com">testservers@outoftheboxacademy.com</a>.
+      These are test APIs provided by <a href="http://www.outoftheboxacademy.com" target="_blank">www.outoftheboxacademy.com</a>. We do not guarantee data integrity or accuracy, as this is a test server intended solely for evaluation purposes. Use these services for testing only. For support or purchasing information, please contact <a href="mailto:info@outoftheboxacademy.com">info@outoftheboxacademy.com</a>.
     </p>
   </footer>
 </body>
